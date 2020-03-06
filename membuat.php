@@ -1,3 +1,4 @@
+<?php if (!isset($included)) header('Location:./') ?>
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
         <h1 class="display-4">Membuat</h1>

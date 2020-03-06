@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan Laravel</title>
 
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -36,24 +36,24 @@
     </nav>
     <div class="container">
         <?php
-
-        if (isset($_GET['page'])) :
+        $included = true;
+        if (isset($_GET['page'])) {
             if (
                 $_GET['page'] == 'persiapan' ||
                 $_GET['page'] == 'membuat' ||
                 $_GET['page'] == 'memodivikasi'
-            ) :
+            ) {
                 include($_GET['page'] . '.php');
-            else :
-                include('welcome.php');
-            endif;
-        else :
+            } else {
+                header('Location:./');
+            }
+        } else {
             include('welcome.php');
-        endif; ?>
+        } ?>
     </div>
 
-    <script src="jquery/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>

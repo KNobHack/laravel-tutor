@@ -1,3 +1,4 @@
+<?php if (!isset($included)) header('Location:./') ?>
 <div class="jumbotron">
     <h1 class="display-4">Selamat Datang</h1>
     <p class="lead">Belajar membuat login menggunakan laravel</p>
