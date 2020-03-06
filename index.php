@@ -38,21 +38,18 @@
         <?php
 
         if (isset($_GET['page'])) :
-            $included = true;
-            if (file_exists($_GET['page'] . '.php')) :
+            if (
+                $_GET['page'] == 'persiapan' ||
+                $_GET['page'] == 'membuat' ||
+                $_GET['page'] == 'memodivikasi'
+            ) :
                 include($_GET['page'] . '.php');
+            else :
+                include('welcome.php');
             endif;
-        else : ?>
-
-            <div class="jumbotron">
-                <h1 class="display-4">Selamat Datang</h1>
-                <p class="lead">Belajar membuat login menggunakan laravel</p>
-                <hr class="my-4">
-                <p>Langsung aja mulai, click tombol mulai di bawah</p>
-                <a class="btn btn-primary btn-lg" href="./?page=persiapan" role="button">Mulai</a>
-            </div>
-
-        <?php endif; ?>
+        else :
+            include('welcome.php');
+        endif; ?>
     </div>
 
     <script src="jquery/jquery.min.js"></script>
