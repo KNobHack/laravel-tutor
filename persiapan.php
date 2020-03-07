@@ -52,7 +52,7 @@
             <h4 class="display-10">NPM</h4>
             <p>Node Package Manager (NPM) pada dasarnya sama dengan composer, perbedaannya yaitu composer untuk bahasa PHP sedangkan NPM untuk bahasa javascript</p>
             <p>NPM melekat pada node.js. Tak usah bingung, intinya jika anda meninstall node.js maka NPM akan anda dapatkan</p>
-            <p>Download node.js <a target="_blank">di sini</a><br>disarankan untuk mendownload versi LTS-nya</p>
+            <p>Download node.js <a href="https://nodejs.org" target="_blank">di sini</a><br>disarankan untuk mendownload versi LTS-nya</p>
             <p>Untuk meninstall sama seperti menginstall aplikasi lainnya, tidak perlu ada konfigurasi tambahan<br>anda hanya perlu click next saja sampai proses instalasi dimulai</p>
             <h6>Pengecekan</h6>
             <p>Setelah proses instalasi selesai sama seperti composer untuk mengecek berhasil atau tidak nya anda harus membuka Command Prompt dan ketikkan <code>npm</code> lalu tekan enter</p>
@@ -61,12 +61,26 @@
         </section>
         <hr>
         <section id="li">
-            <h4 class="display-10">Laravel installer (opsional)</h4>
-            <p>Untuk mendownload laravel biasanya menggunakan syntax <code>composer create-project --prefer-dist laravel/laravel nama_project</code>. Daripada repot menulis sytax yang panjang dan sulit di ingat, lebih baik menginstall laravel installer.<br><i>Jika anda sudah mendownload laravel nya maka lewati bagian ini</i></p>
+            <h4 class="display-10">Laravel installer (opsional)</h4><br>
+            <p>
+                Untuk mendownload laravel biasanya menggunakan syntax berikut<br>
+                <code>composer create-project --prefer-dist laravel/laravel nama_project</code><br>
+                Daripada repot menulis sytax yang panjang dan sulit di ingat, lebih baik menginstall laravel installer.<br>
+                <i>Jika anda sudah mendownload laravel nya maka lewati bagian ini</i>
+            </p>
             <p>Untuk menginstall <i>Laravel Installer</i> anda harus mendownload nya lewat Command Prompt atau lebih tepatnya melalui composer</p>
             <h6>Cara menginstall</h6>
-            <p>Buka Command Prompt ketikkan <code>composer global require laravel/installer</code> lalu tekan enter<br>Setelah itu tunggu prosesnya sampai selesai</p>
-            <p>Setelah selesai anda tidak perlu lagi mengetikkan <code>composer create-project --prefer-dist laravel/laravel nama_project</code> untuk mendownload laravel, bisa dengan mudah hanya dengan mengetikkan <code>laravel new nama_project</code></p>
+            <p>
+                Buka Command Prompt ketikkan syntax berikut<br>
+                <code>composer global require laravel/installer</code><br>
+                lalu tekan enter<br>
+                Setelah itu tunggu prosesnya sampai selesai</p>
+            <p>
+                Setelah selesai anda tidak perlu lagi mengetikkan<br>
+                <code>composer create-project --prefer-dist laravel/laravel nama_project</code><br>
+                bisa dengan mudah hanya dengan mengetikkan<br>
+                <code>laravel new nama_project</code>
+            </p>
         </section>
         <hr>
         <p>Semua persiapan sudah lengkap</p>
