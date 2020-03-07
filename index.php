@@ -33,7 +33,7 @@
                         <a class="nav-link" href="./?page=membuat">Membuat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./?page=memodivikasi">Memodivikasi</a>
+                        <a class="nav-link" href="./?page=memodifikasi">Memodifikasi</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
             if (
                 $_GET['page'] == 'persiapan' ||
                 $_GET['page'] == 'membuat' ||
-                $_GET['page'] == 'memodivikasi'
+                $_GET['page'] == 'memodifikasi'
             ) {
                 include($_GET['page'] . '.php');
             } else {
