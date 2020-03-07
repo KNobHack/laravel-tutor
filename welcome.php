@@ -7,4 +7,8 @@
     <p>Banyak sekali fitur yang bisa di gunakan agar mempercepat pembuatan suatu situs web, Salah satunya yaitu membuat login tanpa menyentuh source code sama sekali. Tidak percaya???</p>
     <p>Biar percaya langsung aja mulai tutorialnya, click tombol mulai di bawah</p>
     <a class="btn btn-primary btn-lg" href="./?page=persiapan" role="button">Mulai</a>
+    <blockquote class="blockquote">
+        <p class="mb-0 mt-4">Salam sukses :) .</p>
+        <footer class="blockquote-footer">Fahmi <cite title="Source Title">Scada</cite></footer>
+    </blockquote>
 </div>
