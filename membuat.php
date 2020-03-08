@@ -8,7 +8,8 @@
             Untuk membuat login di laravel sangat-sangat simpel, jika anda ingin membuat login pada project baru maka anda tinggal mengetikkan syntax berikut<br>
             <code>laravel new nama_project --auth</code><br>
             tentunya anda harus menginstall <a href="./?page=persiapan#li">laravel installer</a> sebelumnya.
-            <br>Setelah itu anda tinggal menunggu proses download selesai dan jadilah project baru dengan fitur login lengkap didalamnya. simpel bukan???</p>
+            <br>Setelah itu anda tinggal menunggu proses download selesai dan jadilah project baru dengan fitur login lengkap didalamnya. simpel bukan???
+        </p>
         <p>
             Tapi bagaimana jika sudah memiliki project dan ingin menambahkan login di dalamnya?.<br>
             Simak penjelasannya
@@ -37,6 +38,11 @@
             <code>npm install</code><br>
             <code>npm run dev</code>
         </p>
-        <p>Setelah itu tunggu proses selesai, jika sudah selesai maka halaman login anda sudah siap digunakan</p>
+        <p>
+            Selanjutnya hal terakhir yang harus ada yaitu database<br>
+            Hubungkan project ke database lalu ketik syntax berikut<br>
+            <code>php artisan migrate</code>
+        </p>
+        <p>Setelah prosses selesai maka login sudah bisa di gunakan sepenuhnya</p>
     </div>
 </div>
