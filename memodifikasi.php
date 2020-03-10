@@ -4,7 +4,7 @@
         <h1 class="display-4">Memodifikasi</h1>
         <p class="lead">Login dari laravel kadang tidak sesuai dengan yang kita inginkan, berikut cara untuk memodifikasinya</p>
         <hr>
-        <p>Sebelum mulai memodofikasi, perlu diketahui bahwa tutorial ini membutuhkan pemahaman dasar tentang HTML dan PHP, dan akan lebih baik jika telah memahami dasar dari laravel itu sendiri.</p>
+        <p>Sebelum mulai memodofikasi, perlu diketahui bahwa tutorial ini membutuhkan pemahaman mendalam tentang HTML dan PHP, dan akan lebih baik jika telah memahami dasar dari laravel itu sendiri.</p>
         <p>Apa yang ingin anda modifikasi ???</p>
         <div class="list-group col-xl-4 col-lg-5 col-md-12 col-sm-12">
             <a href="#form" class="list-group-item list-group-item-action">Form</a>
@@ -41,10 +41,11 @@
             <h6>Email (opsional)</h6>
             <p>
                 Mungkin beberapa orang ingin mengubah kolom email menjadi kolom lain, misalnya username atau no_induk.<br>
-                Untuk melakukaknnya anda harus menambahkan method baru bernama username pada class LoginController, dan method tersebut langsung mengembalikan string berisi field yang ingin anda jadikan sebagai pengganti email
+                Untuk melakukaknnya anda harus menambahkan method baru bernama username pada class LoginController, dan method username tersebut langsung mengembalikan string berisi field yang ingin anda jadikan sebagai pengganti email
             </p>
             <i>Contoh :</i><br>
-            <img src="img/form5.PNG" class="img-fluid">
+            <img src="img/form5.PNG" class="img-fluid"><br>
+            <i>Catatan : Class LoginController berada di direktori <code>app/http/contollers/auth/LoginControllers.php</code></i>
         </section>
         <hr>
         <section id="table">
@@ -55,6 +56,7 @@
         <hr>
         <section id="multiauth">
             <h4>Multi autentikasi</h4>
+            <p>Mungkin anda ingin membuat aplikasi dengan halaman login lebih dari satu. bagaimana melakukannya di laravel?</p>
             <i>Coming Soon ...</i>
         </section>
     </div>
