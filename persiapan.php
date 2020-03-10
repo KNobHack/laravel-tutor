@@ -43,7 +43,7 @@
             <p>Di sana anda harus menyertakan path file PHP yang baru saja kita install. Dalam kasus saat ini path php kita ada pada XAMPP yang ada di <code>php/php.exe</code></p>
             <p>Setelah itu click next terus sampai proses instalasi dimulai, lalu tunggu proses instalasi sampai selesai</p>
             <h6>Pengecekan</h6>
-            <p>Untuk mengecek berhasil atau tidak nya instalasi composer anda harus membuka Command Prompt dan ketikkan <code>composer</code> lalu tekan enter</p>
+            <p>Untuk mengecek berhasil atau tidak nya instalasi composer, anda harus membuka Command Prompt dan ketikkan <code>composer</code> lalu tekan enter</p>
             <p>Jika tampil seperti gambar berikut, maka instalasi telah berhasil</p>
             <img src="img/composer2.PNG" class="img-fluid">
         </section>
