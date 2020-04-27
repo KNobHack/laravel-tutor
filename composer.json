@@ -1,6 +1,13 @@
 {
+    "name": "knobhack/lgnlrvltutor",
+    "description": "Tutorial login laravel",
     "require": {
         "twbs/bootstrap": "4.4.1",
         "components/jquery": "^3.4"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php -r \"copy('img/index.php', 'vendor/index.php');\""
+        ]
     }
 }

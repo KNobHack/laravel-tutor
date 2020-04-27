@@ -1,1 +1,2 @@
-<?php header('Location:../');
+<?php include('../err/404.php');
+exit;
